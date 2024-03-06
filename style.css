@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: var(--main-bright);
+    font-family: Roboto, sans-serif;
+    margin: 0;    
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 16px;  
+    position: relative;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+ 
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media(max-width: 1024px){
+    .container {
+        max-width: 964px;
+           }
+}
+
+@media(max-width: 320px){
+    .container {
+        max-width: 290px; 
+        padding: 0 15px;
+    }
+}

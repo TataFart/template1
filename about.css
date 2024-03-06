@@ -1,0 +1,157 @@
+.about {
+    color: var(--main-dark);
+    padding: 70px 0;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 12px;
+    margin-bottom: 35px;
+}
+
+
+.about__subtitle::before {
+ content: "";
+ vertical-align: middle;
+ display: inline-block;
+ width: 43px;
+ border-bottom: 2px solid var(--main-dark);
+ position: relative;
+ right: 23px;
+ top: 0;
+}
+
+.about__subtitle::after {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 43px;
+    border-bottom: 2px solid var(--main-dark);
+    position: relative;
+    left: 23px;
+    top: 0;
+}
+
+.about__text {
+    max-width: 724px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141%;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.about__list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 910px;
+}
+
+.about__list-item {
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap:16px;
+
+}
+
+.about__list-item-number {
+
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--main-bright);
+    text-align: center;
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__list-item-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 141%;
+    text-align: center;
+    max-width: 200px;
+}
+
+@media(max-width: 1024px){
+    .about__title{
+        font-size: 32px;
+    }
+    .about__subtitle{
+        font-size: 20px;
+    }
+    .about__text{
+        font-size: 16px;
+    }
+
+    .about__list-item-number {
+        width: 104px;
+        height: 104px;
+        font-size: 52px;
+    }
+
+    .about__list-item-text {
+        font-size: 18px;
+    }
+
+    .about__subtitle::before{
+        width: 40px;
+    }
+
+    .about__subtitle::after{
+        width: 40px;
+    }
+}
+
+@media(max-width: 705px){
+    .about{
+        padding:30px 0 60px;
+    }
+ .about__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    gap: 40px;
+ }
+
+  
+ .about__title{
+    font-size: 28px;
+}
+.about__subtitle{
+    font-size: 22px;
+}
+.about__text{
+    font-size: 18px;
+}
+}
+
+@media(max-width: 400px) {
+   
+    .about__title{
+        font-size: 20px;
+    }
+    .about__subtitle{
+        font-size: 16px;
+    }
+    .about__text{
+        font-size: 12px;
+    }
+
+}

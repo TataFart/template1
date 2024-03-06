@@ -1,0 +1,111 @@
+.header__container {
+      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.header {
+    padding-top: 40px; 
+    padding-bottom: 60px;
+    margin-bottom: -168px;
+}
+
+
+.header__logo{
+    width: 68px;
+}
+
+.header__phone {    
+    font-size: 23px;
+}
+
+.header__icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #555A7B;
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 0;
+    cursor:pointer;
+    outline: 1px solid transparent;
+    transition: background-color .2s ease, outline .2s ease;
+}
+
+.header__icon:hover,.header__icon:active {
+    background-color: var(--secondary);
+}
+.header__icon:active{
+    outline: 1px solid var(--secondary);
+}
+.header__contact {
+  color: var(--main-bright);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__link {
+    border-bottom: 1px solid var(--main-bright);
+    transition: color .2s ease, outline .2s ease, border-color .2s ease; 
+    text-align: center;
+}
+
+.header__phone:hover, .header__link:hover,
+.header__phone:active, .header__link:active {
+    color: var(--secondary);
+    border-color: var(--secondary);
+
+}
+
+.header__phone:focus , .header__link:focus {
+    outline: 1px solid var(--secondary);
+}
+
+
+@media(max-width: 1024px){
+    .header {
+        padding-top: 26px; 
+        padding-bottom: 35px;
+        
+    }
+
+    .header__logo{
+        width: 60px;
+    }
+    .header__link{
+        font-size: 13px;
+    }
+    .header__phone{
+        font-size: 21px;
+    }
+}
+
+
+@media(max-width: 400px){
+    .header {
+        padding-top: 13px; 
+        padding-bottom: 30px;
+    }
+    .header__logo{
+        width: 30px;
+    }
+    .header__link{
+        display: none;
+    }
+    .header__phone{
+        display: none;
+    }
+
+    .header__icon{    
+        position:inherit;
+        -webkit-appearance: inherit;
+        -moz-appearance: inherit;
+        appearance:inherit;
+        opacity: 1;    
+    }
+}
