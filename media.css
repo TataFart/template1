@@ -1,0 +1,252 @@
+
+@media(max-width: 1024px){
+    .container {
+        max-width: 964px;
+           }
+           .main__title{
+            font-size: 40px;
+           
+        }
+    .header {
+            padding-top: 26px; 
+            padding-bottom: 35px;
+    }
+    
+    .logo{
+            width: 60px;
+            margin-right: 10px;
+        }
+
+    .phone__link{
+            font-size: 14px;
+        }
+    .phone__value{
+            font-size: 20px;
+        }
+        .section__title{
+            font-size: 32px;
+        }
+        .contact{
+            padding-bottom: 56px;
+        }
+    
+        .contact__title {
+            font-size: 32px;
+        }
+
+        .contact__subtitle {
+            font-size: 20px;
+        }
+
+        .about__subtitle{
+            font-size: 20px;
+        }
+
+        .about__subtitle::before{
+            width: 40px;
+        }
+    
+        .about__subtitle::after{
+            width: 40px;
+        }
+
+        .text{
+            font-size: 18px;
+        }
+
+    .form__checkbox-label {
+        font-size: 17px;
+    }
+    
+    .form__checkbox-input:before {
+        font-size: 17px;
+        top: 2px;
+    }
+    .form__checkbox-input{
+        margin-left: -344px;
+    }
+    
+    .form__input {
+        font-size:20px;
+    }
+}
+
+@media(max-width: 760px){
+    .about{
+        padding:30px 0 60px;
+    }
+    .main__title{
+        font-size: 32px;
+       
+    }
+ .about__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    gap: 40px;
+ }
+
+ .form__checkbox-input{
+    margin-left: -325px;
+}
+ .section__title{
+    font-size: 28px;
+}
+.about__subtitle{
+    font-size: 22px;
+}
+.text{
+    font-size: 16px;
+}
+}
+
+
+@media(max-width: 578px){
+    .main__title{
+        font-size: 24px;
+       
+    }
+
+    .phone__value {
+        font-size: 18px;
+    }
+    .footer__developer-wrapper {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        height: 100px;        
+        margin-bottom: -185px;
+        text-align: center;
+    }
+
+    .footer {
+        padding-bottom: 80px;
+        background-color: #2A2C3F;
+    }
+
+    .footer__container {
+        padding: 25px;
+        max-height: 80px;
+        flex-wrap: wrap;
+    }
+
+  
+    .phone {
+        display: none;
+    }
+
+   
+    .footer__icon {
+      
+        justify-content: flex-end;
+        display: flex;
+        position: inherit;
+        -webkit-appearance: inherit;
+        -moz-appearance: inherit;
+        appearance: inherit;
+        opacity: 1;
+    }
+
+    .footer__icon {
+
+        justify-content: flex-end;
+
+        position: inherit;
+        -webkit-appearance: inherit;
+        -moz-appearance: inherit;
+        appearance: inherit;
+        opacity: 1;
+    }
+
+    .phone__icon{    
+        position:inherit;
+        -webkit-appearance: inherit;
+        -moz-appearance: inherit;
+        appearance:inherit;
+        opacity: 1;    
+    }
+
+    .footer__developer {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        height: 100px;
+        
+        margin-bottom: -125px;
+    }
+}
+
+@media(max-width: 600px){
+   
+    .contact__text{
+        font-size: 16px;
+    }
+.form__checkbox-label {
+    font-size: 11px;
+}
+
+.form__checkbox-input:before {
+    font-size: 11px;
+    height: 15px;
+    top:5px;
+}
+.form__checkbox-input{
+    margin-left: -235px;
+}
+}
+
+@media(max-width:400px){
+
+    .main__title{
+        font-size: 20px;
+        margin-bottom: 23px;
+       
+    }
+    .section__title {
+        font-size: 20px;
+    }
+
+    .contact__text{
+        font-size: 12px;
+    }
+
+    .form__checkbox-input{
+        margin-left: -230px;
+    }
+   
+    
+    .container {        
+        padding: 0 10px;
+    }
+    .hero {
+        padding-top: 170px;
+        padding-bottom: 65px;
+       
+    }
+
+    .hero__content{      
+        margin-bottom: 54px;
+    }
+    .container {        
+        padding: 0 10px;
+    }
+
+}
+
+@media(max-width: 347px){
+   
+
+  
+.form__checkbox-label {
+    font-size: 11px;
+}
+
+.form__checkbox-input:before {
+    font-size: 11px;
+}
+.form__checkbox-input{
+    margin-left: -55px;
+    margin-top: -20px;
+}
+}
+

@@ -19,7 +19,8 @@ body {
     margin: 0;    
     font-style: normal;
     font-weight: 400; 
-    font-size: 16px;  
+    font-size: 20px;  
+    line-height: 140%;
     position: relative;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -65,7 +66,7 @@ ul {
            }
 }
 
-@media(max-width: 320px){
+@media(max-width: 405px){
     .container {
         max-width: 290px; 
         padding: 0 15px;
