@@ -67,8 +67,8 @@ ul {
 }
 
 @media(max-width: 405px){
-    .container {
+    /* .container {
         max-width: 290px; 
-        padding: 0 15px;
-    }
+        padding: 0 10px;
+    } */
 }
