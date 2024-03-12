@@ -219,7 +219,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 969px;
+    max-width: 958px;
     counter-reset: li;
     
 }
@@ -232,6 +232,8 @@
    gap:17px;   
    font-weight: 500;
    font-size: 20px;
+   max-width: 220px;
+   line-height: 129%;
 }
 
 .about__list-item::before{
@@ -262,7 +264,7 @@
 
 
 .contact {
-    padding: 77px 0;
+    padding: 74px 0;
     content:"";
     background-image:linear-gradient(rgba(47, 50, 75, 0.55), rgba(47, 50, 75, 0.55)),
     url(./img/Background2.png);
