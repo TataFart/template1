@@ -84,8 +84,8 @@
 .hero {
     padding-top: 228px;
     padding-bottom: 120px;   
-    background:linear-gradient( rgba(47, 50, 75, 0.55),  rgba(47, 50, 75, 0.55)), url(./img/Background.png);
-    background-position:left -40px top 0px;
+    background:linear-gradient( rgba(47, 50, 75, 0.55),  rgba(47, 50, 75, 0.55)), url(./img/hero-back.png);
+    background-position:left 0 top 0px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,8 +267,8 @@
     padding: 74px 0;
     content:"";
     background-image:linear-gradient(rgba(47, 50, 75, 0.55), rgba(47, 50, 75, 0.55)),
-    url(./img/Background2.png);
-    background-position: top left -55px;
+    url(./img/contact-back.png);
+    background-position: top left;
     /* background-size: 50%; */
     background-repeat: no-repeat;
     background-size: cover;
